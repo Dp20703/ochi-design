@@ -1,8 +1,11 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
 
 const App = () => {
   return (
-    <div><h1>Badhiya?</h1></div>
+    <div className='bg-zinc-900 h-screen w-full text-white'>
+      <Navbar/>
+    </div>
   )
 }
 
