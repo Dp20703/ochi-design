@@ -12,7 +12,7 @@ const About = () => {
             <div className='w-2 h-2 rounded-full bg-zinc-100'></div>
           </button>
         </div>
-        <div className="w-1/2 h-[70vh] bg-[#b0c859] rounded-3xl"></div>
+        <div className='w-1/2 h-[70vh] bg-[url("https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-663x469.jpg")] rounded-3xl'></div>
       </div>
     </div>
   )

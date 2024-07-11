@@ -32,7 +32,7 @@ const Featured = () => {
 
         <div className="cards w-full flex gap-10">
           <motion.div onHoverStart={() => handlerHover(0)} onHoverEnd={() => handlerHoverEnd(0)} className="cardContainer w-1/2 h-[75vh] relative">
-            <h1 className="flex overflow-hidden  absolute z-[9] left-full leading-none tracking-tighter  text-6xl -translate-x-1/2 -translate-y-1/2 top-1/2  text-[#CDEA68] font-bold">
+            <h1 className="flex overflow-visible  absolute z-[9] left-full leading-none tracking-tighter  text-6xl -translate-x-1/2 -translate-y-1/2 top-1  text-[#CDEA68] font-bold">
               {"FYDE".split("").map((item, index) => (
                 <motion.span initial={{ y: "100%" }} animate={cards[0]} transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.05 }} className='inline-block' key={index}>{item}</motion.span>
               ))}</h1>
@@ -41,7 +41,7 @@ const Featured = () => {
             </div>
           </motion.div>
           <motion.div onHoverStart={() => handlerHover(1)} onHoverEnd={() => handlerHoverEnd(1)} className="cardContainer w-1/2 h-[75vh] relative">
-            <h1 className="flex overflow-hidden absolute z-[9] right-full  leading-none tracking-tighter  text-6xl  translate-x-1/2 -translate-y-1/2 top-1/2 text-[#CDEA68] font-bold">
+            <h1 className="flex overflow-visible absolute z-[9] right-full  leading-none tracking-tighter  text-6xl  translate-x-1/2 -translate-y-1/2 top-3/4 text-[#CDEA68] font-bold">
               {"VISE".split("").map((item, index) => (
                 <motion.span initial={{ y: "100%" }} animate={cards[1]} transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.05 }} className='inline-block' key={index}>{item}</motion.span>
               ))}
@@ -69,7 +69,7 @@ const Featured = () => {
 
         <div className="cards w-full flex gap-10">
           <motion.div onHoverStart={() => handlerHover(3)} onHoverEnd={() => handlerHoverEnd(3)} className="cardContainer w-1/2 h-[75vh] relative">
-            <h1 className=" flex overflow-hidden absolute z-[9] left-full leading-none tracking-tighter  text-6xl -translate-x-1/2 -translate-y-1/2 top-1/2  text-[#CDEA68] font-bold"> {"TRAWA".split("").map((item, index) => (
+            <h1 className=" flex overflow-visible absolute z-[9] left-full leading-none tracking-tighter  text-6xl -translate-x-1/2 -translate-y-1/2 top-1  text-[#CDEA68] font-bold"> {"TRAWA".split("").map((item, index) => (
               <motion.span initial={{ y: "100%" }} animate={cards[3]} transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.05 }} className='inline-block' key={index}>{item}</motion.span>
             ))}</h1>
             <div className="card w-full h-full rounded-xl overflow-hidden">
@@ -77,7 +77,7 @@ const Featured = () => {
             </div>
           </motion.div>
           <motion.div onHoverStart={() => handlerHover(3)} onHoverEnd={() => handlerHoverEnd(3)} className="cardContainer w-1/2 h-[75vh] relative">
-            <h1 className="flex overflow-hidden absolute z-[9] right-full leading-none tracking-tighter  text-6xl  translate-x-1/2 -translate-y-1/2 top-1/2 text-[#CDEA68] font-bold">
+            <h1 className="flex overflow-visible absolute z-[9] right-full leading-none tracking-tighter  text-6xl  translate-x-1/2 -translate-y-1/2 top-3/4 text-[#CDEA68] font-bold">
               {"PREMIUMBLEND".split("").map((item, index) => (
                 <motion.span initial={{ y: "100%" }} animate={cards[4]} transition={{ ease: [0.22, 1, 0.36, 1], delay: index * 0.05 }} className='inline-block' key={index}>{item}</motion.span>
               ))}
